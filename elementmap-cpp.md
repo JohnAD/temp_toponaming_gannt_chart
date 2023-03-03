@@ -9,3 +9,6 @@ real-world projects and assert expected strings. This is critical as future chan
 to the class should be as consistent and non-breaking as possible.
 
 This step DOES NOT add the `elementMap`/`_elementMap` members seen in the the ComplexGeoData class.
+
+
+Investigate: adding a user-defined edge name; it is would be ideal if a user-defined name would override the algorithm. (The functions should support this natively.)
