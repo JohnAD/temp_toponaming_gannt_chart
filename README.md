@@ -31,25 +31,26 @@ General pattern (make this a linear flowchart-like thing)
 
    Using unit tests, verify that the naming is very predictable and reliable.
 
-   * ElementMap.cpp
+   * Add the members to the ComplexGeoData.cpp class. They are not actually used yet.
+     Nor are they set unless called by hand via Python console.
+
+   * Basics and members added to ComplexGeoData.cpp/.h; Add visibility in Selection View of current name
+
+   * ElementMap.cpp (importing RealThunder algo)
 
      see elementmap-cpp.md
+     
+   * Support user-defined element-name mapping override (add to Algo)
 
 3. Add the naming.
 
-   Add the naming, but do not use it yet.
-
-   Add the members to the ComplexGeoData.cpp class. While the member values are set, they are not actually used.
-
-   Add support for visibility in the Selection View.
+   Call the algorithmm for naming, but do not use it yet.
 
    This stage will slow down FreeCAD and will make the naming visible on an element when selected.
 
-   * Basics and members added to ComplexGeoData.cpp/.h
+   * Adjustments to Sketcher workbench
 
    * Adjustments to Part workbench
-
-   * Adjustments to Sketcher workbench
 
    * Adjustments to ComplexGeoDataPy
 
@@ -61,9 +62,9 @@ General pattern (make this a linear flowchart-like thing)
 
    * Adjustments to Save / Restore processes
 
-   * Adjustments to Part workbench
-
    * Adjustments to Sketcher workbench
+
+   * Adjustments to Part workbench
 
 5. Optimize.
 
