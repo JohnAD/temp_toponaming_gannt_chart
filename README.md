@@ -44,6 +44,8 @@ General pattern (make this a linear flowchart-like thing)
 
 3. Add the naming.
 
+   Create a new v.22 branch first as this will cause slow downs.
+
    Call the algorithmm for naming, but do not use it yet.
 
    This stage will slow down FreeCAD and will make the naming visible on an element when selected.
