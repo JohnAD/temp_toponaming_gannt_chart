@@ -1,10 +1,12 @@
-# TopoNaming Phase 1 - create IndexedName class
+# TopoNaming Phase 1 (step 1 of 4) - create IndexedName class
 
 This is a class that is used to save the name of an element. It will later by used by the `MappedElement` class which will be used by the `ElementMap` class.
 
 It stores the "short name" of the element, such as "Face1".
 
-------
+For context, see issue https://github.com/FreeCAD/FreeCAD/issues/8432
+
+## notes
 
 Instead of a simple string, it is a string/integer combination. The string is the "type" of element. The integer is an number on it's suffix. So, instead of storing "face3", this class stores "face" and 3.
 
