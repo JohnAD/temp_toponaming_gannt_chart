@@ -1,4 +1,4 @@
-# TopoNaming Phase 1 (step 3 of 4) - create MappedElement class
+# TopoNaming Phase 1 (card 3 of 4) - create MappedElement class
 
 > The toponaming algorithm would benefit from a type to easily store and manipulate element naming as a whole.
 

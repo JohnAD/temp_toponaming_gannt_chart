@@ -1,4 +1,4 @@
-# TopoNaming Phase 1 (step 1 of 4) - create IndexedName class
+# TopoNaming Phase 1 (card 1 of 4) - create IndexedName class
 
 > The toponaming algorithm would benefit from a type to easily store and manipulate the short reference names of the elements.
 
