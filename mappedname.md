@@ -1,6 +1,10 @@
 # TopoNaming Phase 1 (step 2 of 4) - create MappedName class
 
-Used to store and manipulate the more-complex mapped-name used by elements (and the toponaming algorithm).
+> The toponaming algorithm would benefit from a type to easily store and manipulate the name serialized from the element mapping.
+
+## description
+
+Create MappedName.cs to store and manipulate the more-complex mapped-name used by elements (and the toponaming algorithm).
 
 For context, see issue https://github.com/FreeCAD/FreeCAD/issues/8432
 

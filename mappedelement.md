@@ -1,6 +1,10 @@
 # TopoNaming Phase 1 (step 3 of 4) - create MappedElement class
 
-This is a class that is used to save the name parts of an element. Steps 1 and 2 must be complete first.
+> The toponaming algorithm would benefit from a type to easily store and manipulate element naming as a whole.
+
+## description
+
+Create teh MappedElement.cpp class that is used to save the name parts of an element. Steps 1 and 2 must be complete first.
 
 For context, see issue https://github.com/FreeCAD/FreeCAD/issues/8432
 

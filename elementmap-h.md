@@ -1,8 +1,14 @@
 # TopoNaming Phase 1 (step 4 of 4) - ElementMap Header file
 
+> The toponaming is more easily worked on if the descriptive elements of it are gathered in one place for easy reference.
+
+## description
+
 The goal here is to create a common place for the consts and other names that will be used by toponaming as a whole.
 
-Later, in phase 2, this will also be the header file for ElementMap.cpp
+At first, this will be mainly the strings used for serialization of the MappedName's elements. As common point of reference are discovered related to the toponaming ElementMap algorithm, this will be a good place to place them.
+
+Later, in phase 2, this header file will be used with the associated ElementMap.cpp class.
 
 For context, see issue https://github.com/FreeCAD/FreeCAD/issues/8432
 
@@ -44,4 +50,3 @@ const std::string POSTFIX_FOR_TAG = ";:H";
 ```
 
 I recommend we also go ahead and move `elementMapPrefix()` to a const as it simply returns a semicolon (always).
-
